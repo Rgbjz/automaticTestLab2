@@ -1,5 +1,4 @@
 import { expect } from 'chai'
-import Mtrx from 'mtrx'
 
 describe('Mtrx — методи екземпляра', () => {
   let m
@@ -43,5 +42,9 @@ describe('Mtrx — методи екземпляра', () => {
     expect(m[0].length).to.equal(initialCols)
   })
 
-  it('повертає транспоновану матрицю (T)', () => {})
+  it('повертає транспоновану матрицю (T)', () => {
+    const t = m.T()
+    expect(t[0][1]).to.equal(3)
+    expect(t[1][0]).to.equal(2)
+  })
 })
