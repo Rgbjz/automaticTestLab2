@@ -1,4 +1,5 @@
 import { expect } from 'chai'
+import Mtrx from 'mtrx'
 
 describe('Mtrx — методи екземпляра', () => {
   let m
