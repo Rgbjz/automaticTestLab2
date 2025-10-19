@@ -12,5 +12,8 @@
   "devDependencies": {
     "chai": "^6.2.0",
     "mocha": "^11.7.4"
+  },
+  "dependencies": {
+    "mtrx": "^0.1.6"
   }
 }
