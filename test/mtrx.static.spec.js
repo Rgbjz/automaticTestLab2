@@ -1,4 +1,5 @@
 import { expect } from 'chai'
+import Mtrx from 'mtrx'
 
 describe('Mtrx — статичні методи', () => {
   it('Mtrx.zeros(n, m) створює матрицю з нулів', () => {
