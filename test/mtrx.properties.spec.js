@@ -1,4 +1,5 @@
 import { expect } from 'chai'
+import Mtrx from 'mtrx'
 
 describe('Mtrx — властивості', () => {
   it('rows і cols відображають розмір матриці', () => {
